@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Tallykhata_junit" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-29T09:03:39" hostname="DESKTOP-285ADBM" time="27.494">
+  <properties/>
+  <testcase name="fillUp" classname="Tallykhata_junit" time="27.494"/>
+  <system-out><![CDATA[
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+1659085420508	geckodriver	INFO	Listening on 127.0.0.1:65430
+1659085422138	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headed" "--remote-debugging-port" "54664" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://localhost:54664/" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileKLJhi8"
+1659085422908	Marionette	INFO	Marionette enabled
+1659085422919	Marionette	INFO	Listening on port 64873
+WebDriver BiDi listening on ws://localhost:54664
+Read port: 64873
+1659085423185	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileKLJhi8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54664/devtools/browser/5cce4d53-6877-41ed-8768-a456f3405050
+Jul 29, 2022 3:03:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+JavaScript warning: https://www.tallykhata.com/wp-content/themes/salient/js/init.js?ver=10.0.1, line 8984: unreachable code after return statement
+JavaScript warning: https://www.tallykhata.com/wp-content/themes/salient/js/init.js?ver=10.0.1, line 9026: unreachable code after return statement
+JavaScript warning: https://www.tallykhata.com/wp-content/themes/salient/js/init.js?ver=10.0.1, line 8984: unreachable code after return statement
+JavaScript warning: https://www.tallykhata.com/wp-content/themes/salient/js/init.js?ver=10.0.1, line 9026: unreachable code after return statement
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ixkQ4/yN/l/en_US/40v1RToHvlZ.js?_nc_x=Ij3Wp8lg5Kz, line 3: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tallykhata.com"
+]]></system-err>
+</testsuite>
